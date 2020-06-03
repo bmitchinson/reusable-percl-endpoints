@@ -1,5 +1,9 @@
 {
-  "deerfieldSpaInbound": {},
+  "deerfieldSpaInbound": {
+    "Say": {
+      "text": "Hello! Thanks for calling the Deerfield Spa. Later we'll support taking a message. Goodbye."
+    }
+  },
   "persephoneSpaInbound": {
     "Say": {
       "text": "Hello! Thanks for calling the Persephone spa and resort. Later we'll support taking a message. Goodbye."

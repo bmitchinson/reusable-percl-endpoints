@@ -1,10 +1,8 @@
 // middleware https://github.com/typicode/json-server/issues/453#issuecomment-343048811
 module.exports = function (req, res, next) {
-  console.log("middle");
-  if (req.method === "POST") {
-    console.log("called");
-    // Converts POST to GET and move payload to query params
-    // This way it will make JSON Server that it's GET request
+  if (req.method !== "GET") {
+    // Converts all requests to GET and moves payload to query params
+    // JSON server becomes immutable
     req.method = "GET";
     req.query = req.body;
   }
