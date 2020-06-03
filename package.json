@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Using json-server to serve static percl from Heroku",
   "scripts": {
-    "start": "json-server db.json --port 80",
-    "dev": "nodemon db.json --exec 'json-server' db.json --port 80"
+    "start": "json-server db.json --port ${PORT:-3001}",
+    "dev": "nodemon db.json --exec 'json-server' db.json --port ${PORT:-3001}"
   },
   "author": "Ben Mitchinson",
   "license": "ISC",
