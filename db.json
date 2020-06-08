@@ -1,8 +1,9 @@
 {
   "deerfieldSpaInbound": [
     {
-      "Pause": {
-        "length": 2500
+      "Play": {
+        "file": "https://res.cloudinary.com/mitchinsondev-cloud/video/upload/v1591634650/vail/sample_apps/reason_vail_half_itk7xj.wav",
+        "loop": 1
       }
     },
     {
@@ -13,8 +14,9 @@
   ],
   "persephoneSpaInbound": [
     {
-      "Pause": {
-        "length": 2500
+      "Play": {
+        "file": "https://res.cloudinary.com/mitchinsondev-cloud/video/upload/v1591634650/vail/sample_apps/reason_vail_half_itk7xj.wav",
+        "loop": 1
       }
     },
     {
