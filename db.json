@@ -8,7 +8,7 @@
     },
     {
       "Say": {
-        "text": "Hello! Thanks for calling the Deerfield Spa. Later we'll support taking a message. Goodbye."
+        "text": "Hello! Thanks for calling the Deerfield Spa. We're currently closed for the day. Goodbye."
       }
     }
   ],
@@ -21,7 +21,7 @@
     },
     {
       "Say": {
-        "text": "Hello! Thanks for calling the Persephone spa and resort. Later we'll support taking a message. Goodbye."
+        "text": "Hello! Thanks for calling the Persephone spa and resort. We're currently closed for the day. Goodbye."
       }
     }
   ]
