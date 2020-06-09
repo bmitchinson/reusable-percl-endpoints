@@ -41,7 +41,7 @@ request, everything else is responsive.
 2. `heroku login` will help you create a heroku account, and pass a token back
    to your CLI. Your machine is now logged in.
 3. `heroku create {site-name}`
-4. `heroku push heroku master`
+4. `git push heroku master`
 
 Step four will push any code that's currently commited to your master branch,
 to heroku. -> Any code that is not commited to git will not be deployed.
